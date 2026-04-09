@@ -1,0 +1,42 @@
+ body {
+            font-family: Arial;
+            text-align: center;
+            margin: 100px 0px 0px 300px;
+          background-color:rgb(248, 240, 240) ;
+            
+        }
+        label{
+                 color: black;
+                 font-size: 30px;
+            font-family: Arial;
+
+        }
+        .main{
+            margin: 150px 0px 0px 200px;
+            border:none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 40%;
+            height:300px;
+            background-color:wheat ;
+            border-radius:20px;
+            box-shadow: 2px 5px 20px rgb(126, 117, 100);
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        button {
+            
+            background: #22c55e;
+           border: none;
+           color: white;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #023314;
+        }
